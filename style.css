@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./BgImg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.507);
+}
+
+.Logo {
+    width: 130px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.MainContainer {
+    width: 100%;
+    height: 89vh;
+    position: relative;
+}
+
+#QuestionSideBar {
+    background-color: rgba(0, 0, 0, 0.299);
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+    padding: 0.5em;
+}
+
+.QuestionNumber {
+    width: 100%;
+    text-align: center;
+    padding: 0.8em;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: black;
+
+}
+
+.QuestionNumber:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: tomato;
+}
+
+.ActiveQuestion {
+    border: none;
+    outline: none;
+    background-color: tomato;
+}
+
+.QuestionAnswereContainer{
+width: 100%;
+height: 100%;
+padding-left: 15.5em;
+}
+
+
+#Question1, 
+#Question2,
+#Question3, 
+#Question4,
+#Question5,
+#Question6,
+#Question7,
+#Question8,
+#Question9{
+    width: 100%;
+    height: 100%;
+}
+.UnactiveQuestion{
+    display: none;
+}
+.QuestionHeading{
+   background-color: rgba(255, 99, 71, 0.438);
+    width: 100%;
+    text-align: center;
+    padding: 1em 0.5em;
+    font-size: 18px;
+}
+.CodeSnap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.CodeSnap img{
+    width: 50%;
+}
+.OutPutBox{
+    width: 100%;
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0.225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button{
+    width: 200px;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#Flex-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.FlexColumn{
+    flex-direction: column;
+    transition: all 2.5s ease-in;
+}
+.card{
+    background-color: blue;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.Clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.timeLabel{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-size: 14px;
+}
+
+#hourLabel,
+#minLabel,
+#secLabel,
+#AMPM{
+    color: tomato;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/* ActiveQuestionContainer */

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM- JS Coding Assessment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="./JsPng.png" alt="Js-Icon" class="Logo" />
+      <h1>DOM - Js Coding Assessment</h1>
+    </header>
+    <section class="MainContainer">
+      <aside id="QuestionSideBar">
+        <p class="QuestionNumber ActiveQuestion" id="QuestionLink1">
+          Question 1
+        </p>
+        <p class="QuestionNumber" id="QuestionLink2">Question 2</p>
+        <p class="QuestionNumber" id="QuestionLink3">Question 3</p>
+        <p class="QuestionNumber" id="QuestionLink4">Question 4</p>
+        <p class="QuestionNumber" id="QuestionLink5">Question 5</p>
+        <p class="QuestionNumber" id="QuestionLink6">Question 6</p>
+        <p class="QuestionNumber" id="QuestionLink7">Question 7</p>
+        <p class="QuestionNumber" id="QuestionLink8">Question 8</p>
+        <p class="QuestionNumber" id="QuestionLink9">Question 9</p>
+      </aside>
+
+      <div class="QuestionAnswereContainer">
+        <div id="Question1">
+          <h1 class="QuestionHeading">
+            Q.1 Write the code to access element which is having id as "text"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question1_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question1_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+        </div>
+
+        <div id="Question2" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.2 Write the code to access element which is having tag as "h1"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question2_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question2_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+        </div>
+
+        <div id="Question3" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.3 Write the code to access element which is having class as "box"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question3_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question3_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+        </div>
+
+        <div id="Question4" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.4 Change the heading from "Hello" to "Hello World" using DOM
+            functions"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question4_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question4_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+          <div class="OutPutBox">
+            <h1 id="testDemoHeading">Hello</h1>
+          </div>
+        </div>
+
+        <div id="Question5" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.5 Create an HTML page having content as Hello world and a button
+            named Replace Text. When user will click on this button page content
+            should be changed to "Welcome to Elevation academy"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question5_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question5_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+          <div class="OutPutBox">
+            <h1 id="FunctionalityHeading">Hello World</h1>
+            <button id="changeHeadingBtn">Replace Text</button>
+          </div>
+        </div>
+
+        <div id="Question6" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.6 Add one style attribute and give text color as red and id
+            attribute and give the id value as "heading" in the above given h1
+            tag using DOM functions"
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question6_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question6_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+          <div class="OutPutBox">
+            <h1 class="Test6">Hello World</h1>
+          </div>
+        </div>
+
+        <div id="Question7" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.7Create three cards on HTML page and arrange them using flex
+            property in row or horizontal direction and also create button at
+            the bottom named "Change Flex direction". When user clicks on this
+            button, the cards arrangement should be changed to vertical
+            direction.
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question7_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question7_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+          <div class="OutPutBox">
+            <div id="Flex-Container">
+              <p class="card"></p>
+              <p class="card"></p>
+              <p class="card"></p>
+            </div>
+            <button id="ChangeDirection">Change Flex Direction</button>
+          </div>
+        </div>
+
+        <div id="Question8" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.8 What’s the difference between window vs document?
+          </h1>
+        </div>
+
+        <div id="Question9" class="UnactiveQuestion">
+          <h1 class="QuestionHeading">
+            Q.9 Write code to implement timer clock using JS -- display HH:MM:SS
+            -- the time should keep updating every second?
+          </h1>
+          <div class="CodeSnap">
+            <img
+              src="./codesnap/Question9_HTML_Snap.png"
+              alt="Image-Not-Found"
+            />
+            <img src="./codesnap/Question9_JS_Snap.png" alt="Image-Not-Found" />
+          </div>
+          <div class="OutPutBox">
+            <div class="Clock">
+              <p class="timeLabel">Hour<span id="hourLabel"></span></p>
+              <p class="timeLabel">Min<span id="minLabel"></span></p>
+              <p class="timeLabel">Sec<span id="secLabel"></span></p>
+              <p class="timeLabel"><span id="AMPM"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
