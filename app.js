@@ -228,8 +228,12 @@ QuestionLink9.addEventListener('click', (e) => {
 
 
 
-
-
+const HamMenuBtn = document.getElementById("HamMenu");
+const QuestionSideBar = document.getElementById("QuestionSideBar");
+HamMenuBtn.addEventListener('click', ()=>{
+    QuestionSideBar.classList.toggle("HideSideBar");
+    HamMenuBtn.classList.toggle("fa-xmark");
+})
 
 
 //*Question Number 4
