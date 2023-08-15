@@ -123,9 +123,12 @@ h1 {
     justify-content: center;
     height: 50%;
 }
-
-.CodeSnap img {
+.ImgBox{
     width: 50%;
+    height: 100%;
+}
+.ImgBox img {
+    width: 100%;
 }
 
 .OutPutBox {
@@ -211,7 +214,29 @@ button:hover {
     font-weight: bolder;
     font-size: 18px;
 }
+.tableSnap{
+    height: 80%;
+}
 
+table{
+    height: 100%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 18px;
+  border-spacing: 5px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+th, td{
+    padding: 0.5em;
+    line-height: 35px;
+}
+th{
+    color: tomato;
+}
 @media screen and (max-width: 1000px) {
     header {
         display: none;
